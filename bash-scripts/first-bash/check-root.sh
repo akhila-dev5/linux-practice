@@ -1,5 +1,11 @@
 #!/bin/bash
 
+#####################
+# Author:	Akhila Guruju
+# Date:		23 Nov 25
+# Subject:	Check user
+#####################
+
 #Print UID
 echo "Your UID is ${UID}"
 
