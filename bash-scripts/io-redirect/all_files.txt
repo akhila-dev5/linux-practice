@@ -1,0 +1,17 @@
+total 60K
+-rw-r--r-- 1 akhila akhila   0 Dec  3 16:38 all_files.txt
+-rw-r--r-- 1 akhila akhila 171 Dec  3 13:22 error_log.sh
+-rw-r--r-- 1 akhila akhila  25 Dec  3 03:12 exec_stderr.txt
+-rw-r--r-- 1 akhila akhila  70 Dec  3 03:15 input.txt
+-rwxrwxrwx 1 akhila akhila 281 Dec  3 03:17 io-redirect.sh
+-rwxrwxrwx 1 akhila akhila 456 Dec  3 16:34 ip-redirect-arth.sh
+-rwxrwxrwx 1 akhila akhila 323 Dec  3 03:10 ip-redirect.sh
+-rw-r--r-- 1 akhila akhila  70 Dec  3 03:15 list.txt
+-rw-r--r-- 1 akhila akhila 174 Dec  3 13:31 log.txt
+-rwxrwxrwx 1 akhila akhila 252 Dec  3 13:26 no_overwriting.sh
+-rw-r--r-- 1 akhila akhila   3 Dec  3 16:29 nums.txt
+-rwxrwxrwx 1 akhila akhila 153 Dec  3 03:02 op-redirect.sh
+-rw-r--r-- 1 akhila akhila  70 Dec  3 03:17 output.txt
+-rwxrwxrwx 1 akhila akhila 365 Dec  3 13:47 redirec-op-as-ip.sh
+-rwxrwxrwx 1 akhila akhila 424 Dec  3 13:33 suppress-output.sh
+-rwxrwxrwx 1 akhila akhila 150 Dec  3 16:38 tee_cmd.sh
