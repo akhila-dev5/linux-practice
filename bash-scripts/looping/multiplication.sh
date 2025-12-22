@@ -3,7 +3,13 @@
 printf "Enter a number: "
 read n
 
-for ((i=1; i<=10; i++))
-do
-	echo "5 x $i = $((n*i))"
-done
+#chech for a valod number
+
+if ! [[ "$n" =~ ^[0-9]+$ ]]; then
+	echo "Please enter a valid number"
+else
+	for ((i=1; i<=10; i++))
+	do
+		echo "$n x $i = $((n*i))"
+	done
+fi
