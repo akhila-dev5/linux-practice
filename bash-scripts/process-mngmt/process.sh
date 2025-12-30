@@ -3,23 +3,28 @@
 # ps cmd
 echo "================================================="
 echo "Executing ps"
+echo "================================================="
 ps
 
 echo "================================================="
 echo "Executing ps -ef -> Unix style: all processes with full details"
+echo "================================================="
 # e -> shows all process and f -> format
 ps -ef
 
 echo "================================================="
 echo "Executing ps aux -> BSD style: all processes with detailed info"
+echo "================================================="
 ps aux
 
 echo "================================================="
 echo "Executing ps -u username -> Processes for specific user"
+echo "================================================="
 ps -u root
 
 echo "================================================="
 echo "Executing ps -p PID -> Show specific process by PID"
+echo "================================================="
 # ps -p 999
 
 #####################################
