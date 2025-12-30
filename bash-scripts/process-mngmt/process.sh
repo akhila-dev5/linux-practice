@@ -26,6 +26,18 @@ echo "================================================="
 echo "Executing ps -p PID -> Show specific process by PID"
 echo "================================================="
 # ps -p 999
+echo "ps -p 999"
+
+echo "================================================="
+echo "Executing ps --sort=-%mem"
+echo "================================================="
+echo "- before %mem stands for decreasing"
+ps aux --sort=-%mem
+
+echo "================================================="
+echo "Executing ps --sort=%mem"
+echo "================================================="
+ps aux --sort=%mem
 
 #####################################
 # Output Fields:
