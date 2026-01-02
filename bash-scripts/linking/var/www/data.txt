@@ -1,0 +1,1 @@
+Content can be displayed using symbolic link
