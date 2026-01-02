@@ -10,3 +10,7 @@ if [[ -L "data" ]]; then
 else
 	echo "Creation of symbolic or soft link is failed"
 fi
+
+target=$(readlink -f "data")
+
+echo "target link is $target"
