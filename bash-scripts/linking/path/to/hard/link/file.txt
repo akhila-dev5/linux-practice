@@ -1,0 +1,1 @@
+This is hard link and this link won't be deleted if target/original file is deleted. Hard link can only be created to file not for directories
