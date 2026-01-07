@@ -1,0 +1,11 @@
+
+
+airplane
+ball
+bat
+car
+cat
+cat
+new-apple
+new-apple
+orange
