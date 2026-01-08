@@ -1,11 +1,11 @@
 
 
+1car
+2cat
 airplane
 ball
 banana
 bat
-car
-cat
 cat
 new-apple
 new-apple

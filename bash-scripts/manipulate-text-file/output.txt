@@ -4,8 +4,8 @@ cat
 
 new-apple
 bat
-car
+1car
 
 airplane
 banana
-cat
+2cat

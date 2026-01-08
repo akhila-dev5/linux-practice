@@ -6,13 +6,14 @@ if [ ! $1 ]; then
 fi
 
 if [ -f $1 ]; then
-	sort "$1" > sorted_out.txt
 	echo "Sorted file has been redirected to sorted_out.txt file."
-	cat sorted_out.txt
+	sort "$1" | tee sorted_out.txt
 	echo "============================="
-	sort -r $1 > sorted_reverse_alpha.txt
 	echo "-r sorted reverse alphabetically"
-	cat sorted_reverse_alpha.txt
+	sort -r $1 | tee sorted_reverse_alpha.txt
+	echo "==============================="
+	echo "-n sorted numerically"
+	sort -n $1 | tee sorted_num.txt
 else
 	echo "$1 file doesn't exists"
 fi
