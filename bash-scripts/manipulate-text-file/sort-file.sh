@@ -9,6 +9,10 @@ if [ -f $1 ]; then
 	sort "$1" > sorted_out.txt
 	echo "Sorted file has been redirected to sorted_out.txt file."
 	cat sorted_out.txt
+	echo "============================="
+	sort -r $1 > sorted_reverse_alpha.txt
+	echo "-r sorted reverse alphabetically"
+	cat sorted_reverse_alpha.txt
 else
 	echo "$1 file doesn't exists"
 fi
