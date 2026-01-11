@@ -1,9 +1,9 @@
 #!/bin/bash
 
-printf "Enter first number: "
-read num1
-printf "Enter second number: "
-read num2
+#printf "Enter first number: "
+read -p "Enter first number: " num1
+#printf "Enter second number: "
+read -p "Enter second number: " num2
 
 printf "\n"
 
@@ -24,6 +24,8 @@ echo "Sum: $add"
 echo "Difference: $sub"
 echo "Product: $mul"
 if [[ $num2 -ne 0 ]]; then
-	echo "Quotient: $div"
+	div_res=$(echo "scale=2; $num1/$num2" | bc) 
+	echo "Division: $div_res"
+	#mod_res=$(echo "scale=2; $num1%$num2" | bc)
 	echo "Remainder: $mod"
 fi
